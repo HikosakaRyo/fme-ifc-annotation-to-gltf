@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+fme_workflow/gltf/annotation_lines.bin
+fme_workflow/gltf/annotation_lines.gltf
+fme_workflow/ifc/AC20-FZK-Haus.ifc
+json/annotations.json
