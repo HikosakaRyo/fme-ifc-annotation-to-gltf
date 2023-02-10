@@ -1,12 +1,21 @@
 # fme-ifc-annotation-to-gltf
 
+[プログマのプログラマ日記](https://rhikos-prgm.hatenablog.com/)の記事の
+
+[ifcの注記もglTFに変換しようとして、うまくいったけどうまくいかなかった話](https://rhikos-prgm.hatenablog.com/entry/2023/02/10/091526)
+
+関連のソースコードを共有するためのリポジトリです。
+
+FMEを利用してifc(Industry Foundation Class)ファイルからIfcAnnotationを抽出し、annotationに含まれるテキスト情報をglTFに変換するプロジェクトです。  
+glTFはテキストのバウンディングボックスの座標でいたポリゴンを生成して、テキストを画像化したテクスチャを貼り付けることで生成します。  
+
 ## 動作確認バージョン
 
 このプロジェクトは以下の環境で動作確認済みです。
 
-Windows11
-FME Desktop 2022.2
-Python: 3.8.2
+- Windows11
+- FME Desktop 2022.2
+- Python: 3.8.2
 
 ## 環境構築
 
